@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minifmod", "minifmod.vcproj", "{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "facade_test", "facade_test\facade_test.vcproj", "{80527DB1-648C-4BF8-BDC5-24F3D539336F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622} = {CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}
+		{C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3} = {C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniFmodFacade", "MiniFmodFacade\MiniFmodFacade.vcproj", "{C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622} = {CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}.Debug|Win32.Build.0 = Debug|Win32
+		{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}.Release|Win32.ActiveCfg = Release|Win32
+		{CC0211A5-2DB5-4CE8-9AB6-A55899B2E622}.Release|Win32.Build.0 = Release|Win32
+		{80527DB1-648C-4BF8-BDC5-24F3D539336F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80527DB1-648C-4BF8-BDC5-24F3D539336F}.Debug|Win32.Build.0 = Debug|Win32
+		{80527DB1-648C-4BF8-BDC5-24F3D539336F}.Release|Win32.ActiveCfg = Release|Win32
+		{80527DB1-648C-4BF8-BDC5-24F3D539336F}.Release|Win32.Build.0 = Release|Win32
+		{C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3}.Debug|Win32.Build.0 = Debug|Win32
+		{C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3}.Release|Win32.ActiveCfg = Release|Win32
+		{C4ECD7A8-E258-4CFD-8FF7-7B5D4A6D69C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

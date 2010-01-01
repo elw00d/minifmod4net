@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minifmod4net", "minifmod4net\minifmod4net.csproj", "{A7DAA5B4-040F-4C5A-BD2C-89C2EFA8E4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minifmod4net_test", "minifmod4net_test\minifmod4net_test.csproj", "{F3D921D1-C005-4F7B-803A-64E420399CF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7DAA5B4-040F-4C5A-BD2C-89C2EFA8E4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DAA5B4-040F-4C5A-BD2C-89C2EFA8E4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DAA5B4-040F-4C5A-BD2C-89C2EFA8E4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DAA5B4-040F-4C5A-BD2C-89C2EFA8E4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D921D1-C005-4F7B-803A-64E420399CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D921D1-C005-4F7B-803A-64E420399CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D921D1-C005-4F7B-803A-64E420399CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D921D1-C005-4F7B-803A-64E420399CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
