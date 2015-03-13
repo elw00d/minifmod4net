@@ -1,0 +1,3 @@
+Minifmod is a native library provides playing the xm files in Windows OS. minifmod4net is a wrapper designed for quick and fast access to minifmod features without manual interop code writing. You should only add reference to this library and add the native minifmodfacade.dll to your binaries directory.
+
+Now it will work on x86 platform only, so you should set the .net assemblies architecture setting to "x86" too. If you don't change the original "AnyCPU", your program will not work on 64-bit versions of Windows.
